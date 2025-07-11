@@ -21,7 +21,9 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 10;
-  color: white;
+  color: #007bff;
+  font-weight:bold;
+  font-size: 34px;
 }
 
 /* Banner Section */
@@ -137,6 +139,43 @@ body {
   border-radius: 25px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
+/* Productive Section */
+.productive-section {
+  background-color: #eaeaff;
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  color: #222;
+}
+
+.productive-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4c4cff;
+}
+
+.stat p {
+  margin-top: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
 
 
 
